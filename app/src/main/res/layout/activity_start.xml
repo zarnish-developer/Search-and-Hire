@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    tools:context=".StartActivity">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:src="@drawable/logo"
+        android:layout_centerInParent="true"
+        android:visibility="visible"
+        android:id="@+id/icon_image"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:id="@+id/linear_layout">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="250dp"
+            android:src="@drawable/logo"
+            android:layout_centerInParent="true"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:foreground="@drawable/ripple_effect"
+            android:background="@drawable/edit_text_background"
+            android:text="Log In"
+            android:textColor="@color/colorBlack"
+            android:textAllCaps="false"
+            android:id="@+id/login"/>
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="10dp"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:foreground="@drawable/ripple_effect"
+            android:background="@drawable/edit_text_background"
+            android:text="Register"
+            android:textColor="@color/colorBlack"
+            android:textAllCaps="false"
+            android:id="@+id/register"/>
+    </LinearLayout>
+
+
+</RelativeLayout>

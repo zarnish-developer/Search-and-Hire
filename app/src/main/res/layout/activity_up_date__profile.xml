@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_profile"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    android:orientation="vertical"
+    tools:context=".recycle.upDate_Profile">
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="50dp"
+        android:background="@color/colorPrimary" />
+
+    <ScrollView
+        android:id="@+id/scrolView_account"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <RelativeLayout
+            android:id="@+id/linear_account"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="100dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="100dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:textColor="@color/colorBlack"
+                        android:text="Update your details here!"
+                        android:textSize="40sp"
+                        android:textStyle="bold" />
+
+
+
+                    <EditText
+                        android:id="@+id/user_name"
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:layout_margin="4dp"
+                        android:textColor="@color/colorBlack"
+                        android:background="@drawable/background"
+                        android:textColorHint="@color/colorBlack"
+                        android:layout_marginBottom="36dp"
+                        android:drawableStart="@drawable/ic_baseline_person_24"
+                        android:drawableLeft="@drawable/ic_baseline_person_24"
+                        android:drawablePadding="7dp"
+                        android:ems="10"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                        android:hint="Name"
+                        android:paddingLeft="30dp"
+                        android:textSize="16sp"
+                        android:layout_marginTop="24dp"
+                        android:textStyle="normal|bold"
+
+                        />
+
+
+                    <EditText
+                        android:id="@+id/Profession_details"
+                        android:layout_width="match_parent"
+                        android:layout_height="67dp"
+                        android:layout_marginTop="24dp"
+                        android:background="@drawable/background"
+                        android:drawableStart="@drawable/ic_baseline_person_search_24"
+                        android:drawableLeft="@drawable/ic_baseline_person_search_24"
+                        android:drawablePadding="10dp"
+                        android:ems="10"
+                        android:hint="Profession"
+                        android:paddingLeft="30dp"
+                        android:textColor="@color/colorBlack"
+                        android:textColorHint="@color/colorBlack"
+                        android:textSize="16sp"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                        android:textStyle="normal|bold"
+
+                        />
+
+                    <EditText
+                        android:id="@+id/email"
+                        android:layout_width="match_parent"
+                        android:layout_height="67dp"
+                        android:layout_marginTop="24dp"
+                        android:background="@drawable/background"
+                        android:drawableStart="@drawable/ic_baseline_email_24"
+                        android:drawableLeft="@drawable/ic_baseline_email_24"
+                        android:drawablePadding="10dp"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                        android:ems="10"
+                        android:hint="Email"
+                        android:paddingLeft="30dp"
+                        android:textColor="@color/colorBlack"
+                        android:textColorHint="@color/colorBlack"
+                        android:textSize="16sp"
+                        android:textStyle="normal|bold"
+
+                        />
+
+                    <EditText
+                        android:id="@+id/phone"
+                        android:layout_width="match_parent"
+                        android:layout_height="67dp"
+                        android:layout_marginTop="24dp"
+                        android:background="@drawable/background"
+                        android:drawableStart="@drawable/ic_baseline_local_phone_24"
+                        android:drawableLeft="@drawable/ic_baseline_local_phone_24"
+                        android:drawablePadding="10dp"
+                        android:ems="10"
+                        android:hint="Contact No"
+                        android:paddingLeft="30dp"
+                        android:textColor="@color/colorBlack"
+                        android:textColorHint="@color/colorBlack"
+                        android:textSize="20sp"
+                        android:textStyle="normal|bold"
+
+                        />
+
+
+                    <EditText
+                        android:id="@+id/add_details"
+                        android:layout_width="match_parent"
+                        android:layout_height="67dp"
+                        android:drawableStart="@drawable/ic_baseline_edit_24"
+                        android:drawableLeft="@drawable/ic_baseline_edit_24"
+                        android:drawablePadding="10dp"
+                        android:ems="10"
+                        android:textColor="@color/colorBlack"
+                        android:background="@drawable/background"
+                        android:textColorHint="@color/colorBlack"
+                        android:hint="Additional Details like 5 years of professional experience "
+                        android:textSize="16sp"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                        android:inputType="textMultiLine"
+                        android:paddingLeft="30dp"
+                        android:layout_marginTop="24dp"
+                        android:textStyle="normal|bold"
+
+                        />
+
+                    <Space
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"/>
+                    <Button
+                        android:id="@+id/save_updates"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:foreground="@drawable/ripple_effect"
+                        android:background="@drawable/card_background"
+                        android:text="Save Details"
+                        android:textSize="30dp"
+                        android:textStyle="bold"></Button>
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentStart="true">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/profile_image"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_marginTop="40dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/profile_image"
+                    app:civ_border_color="@color/colorPrimary"
+                    app:civ_border_width="5dp" />
+
+
+
+            </RelativeLayout>
+
+
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

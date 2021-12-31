@@ -1,0 +1,90 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Splash_activity" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:actionMenuTextColor">@color/colorBlack</item>
+
+        <!-- Secondary brand color. -->
+
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">@color/colorBlack</item>
+        <!-- Customize your theme here. -->
+        <item name="actionOverflowButtonStyle">@style/iconOverflow</item>
+    </style>
+
+    <style name="Theme.Splash_activity.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+<!--Pin view -->
+
+    <style name="pin" parent="Theme.AppCompat.Light">
+        ...
+        <item name="pinViewStyle">@style/PinWidget.PinView</item>
+    </style>
+
+    <style name="Theme.Splash_activity.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="android:actionMenuTextColor">@color/colorBlack</item>
+    </style>
+    <style name="Theme.editUserProfile" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <style name="Theme.Splash_activity.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" >
+
+    </style>
+
+    <style name="ThemeOverlay.MyPopupTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="backgroundColor">@color/colorAccent</item>
+        <item name="android:textColor">@color/colorBlack</item>
+
+    </style>
+    <!--    custom progress dialog-->
+    <style name="Custom" parent="android:Theme.DeviceDefault.Dialog">
+        <item name="DialogTitleAppearance">@android:style/TextAppearance.Medium</item>
+        <item name="DialogTitleText">Organizing...</item>
+        <item name="DialogSpotColor">@color/colorPrimary</item>
+        <item name="android:background">@color/offWhite</item>
+        <item name="android:textColor">@color/colorBlack</item>
+        <item name="DialogSpotCount">8</item>
+
+    </style>
+
+
+    <!--    custom progress dialog Please Wait-->
+    <style name="CustomPleaseWait" parent="android:Theme.DeviceDefault.Dialog">
+        <item name="DialogTitleAppearance">@android:style/TextAppearance.Medium</item>
+        <item name="DialogTitleText">Please Wait...</item>
+        <item name="DialogSpotColor">@color/colorPrimary</item>
+        <item name="android:background">@color/offWhite</item>
+        <item name="android:textColor">@color/colorBlack</item>
+        <item name="DialogSpotCount">8</item>
+    </style>
+
+    <style name="MyAlertDialogStyle" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="colorAccent">@color/colorWhite</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:textColorPrimary">@color/colorPrimary</item>
+        <item name="android:background">@color/colorBlack</item>
+    </style>
+    <style name="transition">
+        <!--this is for enabling transition -->
+        <item name="android:windowActivityTransitions" tools:targetApi="lollipop">true</item>
+        <!--this is for entering and exit transition -->
+        <item name="android:windowEnterTransition" tools:targetApi="lollipop">@transition/trans_anim</item>
+        <item name="android:windowExitTransition" tools:targetApi="lollipop">@transition/trans_anim</item>
+    </style>
+
+    <style name="iconOverflow" parent="Widget.AppCompat.ActionButton.Overflow">
+        <item name="android:tint">@android:color/black</item>
+    </style>
+    <style name="CustomBottomSheetDialogTheme" parent="Theme.Design.Light.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/CustomBottomSheetStyle</item>
+    </style>
+
+    <style name="CustomBottomSheetStyle" parent="Widget.Design.BottomSheet.Modal">
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+</resources>

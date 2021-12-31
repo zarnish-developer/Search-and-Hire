@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">SearchHire</string>
+    <string name="title_activity_worker_side_tab">workerSideTab</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hintsPassword"><![CDATA[password <font color=\'#cc0029\'>*</font>]]></string>
+    <string name="hintsEmail"><![CDATA[Email <font color=\'#cc0029\'>*</font>]]></string>
+    <string name="username"><![CDATA[Name <font color=\'#cc0029\'>*</font>]]></string>
+    <string name="phone"><![CDATA[Phone <font color=\'#cc0029\'>*</font>]]></string>
+    <string name="details"><![CDATA[Add Additional Details <font color=\'#cc0029\'>*</font>]]></string>
+    <string name="wage"><![CDATA[Add wage per Hour 500-1000 <font color=\'#cc0029\'>*</font>]]></string>
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

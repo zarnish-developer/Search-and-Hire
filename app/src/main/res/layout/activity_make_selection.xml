@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    android:padding="30dp"
+    tools:context=".otp.forgetPassword">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_baseline_arrow_back_24"
+            android:padding="5dp"></ImageView>
+
+        <TextView
+            android:id="@+id/forget_password_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="36dp"
+            android:fontFamily="@font/muli_black"
+            android:includeFontPadding="false"
+            android:text="Make
+            Selection"
+            android:textAllCaps="true"
+            android:textColor="@color/colorBlack"
+            android:textSize="30sp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="36dp"
+            android:fontFamily="@font/muli_black"
+            android:includeFontPadding="false"
+            android:text="provide your Account Email's for which you want to reset password"
+            android:textAllCaps="true"
+            android:textColor="@color/colorBlack"
+            android:textSize="18sp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:layout_marginTop="50dp"
+            android:background="@color/offWhite">
+            <ImageView
+                android:id="@+id/mobile_icon"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/mobile_custom_icon"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="20dp"></ImageView>
+
+            <TextView
+                android:id="@+id/mbl_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="50dp"
+                android:layout_toRightOf="@id/mobile_icon"
+                android:fontFamily="@font/muli_black"
+                android:includeFontPadding="false"
+                android:text="via sms"
+                android:textAllCaps="true"
+                android:textColor="@color/colorBlack"
+                android:textSize="25sp" />
+            <TextView
+                android:id="@+id/mbl_des"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_toRightOf="@id/mobile_icon"
+                android:layout_below="@id/mbl_title"
+                android:fontFamily="@font/muli_black"
+                android:includeFontPadding="false"
+                android:text="+9233445566"
+                android:textAllCaps="true"
+                android:textColor="@color/colorBlack"
+                android:textSize="25sp" />
+
+
+            <Button
+                android:id="@+id/mblForgetPassword"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/transparent"></Button>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:layout_marginTop="0dp"
+            android:background="@color/offWhite">
+            <ImageView
+                android:id="@+id/mail_icon"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/mail_custom_icon"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="20dp"></ImageView>
+
+            <TextView
+                android:id="@+id/mail_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="50dp"
+                android:layout_toRightOf="@id/mail_icon"
+                android:fontFamily="@font/muli_black"
+                android:includeFontPadding="false"
+                android:text="via sms"
+                android:textAllCaps="true"
+                android:textColor="@color/colorBlack"
+                android:textSize="25sp" />
+            <TextView
+                android:id="@+id/mail_des"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_toRightOf="@id/mail_icon"
+                android:layout_below="@id/mail_title"
+                android:fontFamily="@font/muli_black"
+                android:includeFontPadding="false"
+                android:text="+9233445566"
+                android:textAllCaps="true"
+                android:textColor="@color/colorBlack"
+                android:textSize="25sp" />
+
+            <Button
+                android:id="@+id/mailForgetPassword"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/transparent"></Button>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+</ScrollView>

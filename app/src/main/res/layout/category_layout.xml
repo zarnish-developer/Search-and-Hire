@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@color/colorWhite"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:id="@+id/image_icon"
+        android:layout_gravity="center"
+        android:background="@color/colorPrimary"
+        android:src="@drawable/plumber1"
+
+        />
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:foreground="@drawable/ripple_effect"
+        android:background="@color/colorPrimary"
+        android:text="Select Category..."
+        android:textColor="@color/colorBlack"
+        android:textStyle="bold" />
+</LinearLayout>

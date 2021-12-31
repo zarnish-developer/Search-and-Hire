@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    >
+
+    <item
+        android:id="@+id/enableDarkMode"
+        android:icon="@drawable/moon"
+        android:title="Enable Dark Mode"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/DisableDarkMode"
+        android:icon="@drawable/sun"
+        app:showAsAction="always"
+        android:title="TODO" />
+    <item
+        android:id="@+id/main_update_profile"
+        android:icon="@android:drawable/ic_menu_edit"
+        android:title="Update Profile"
+      app:showAsAction="never"
+        ></item>
+
+    <item
+        android:id="@+id/main_reset_password"
+
+        android:title="Reset Password"
+        app:showAsAction="never"></item>
+    <item
+        android:id="@+id/main_delete_account"
+
+        android:title="Delete Account"
+        app:showAsAction="never"></item>
+
+    <item
+        android:id="@+id/main_Authenticate"
+
+        android:title="verify your account"
+        app:showAsAction="never"></item>
+
+    <item
+        android:id="@+id/main_logOut"
+        android:icon="@drawable/logout"
+        android:title="LOG OUT"
+        app:showAsAction="never"></item>
+</menu>
